@@ -56,8 +56,9 @@ def move():
     draw()
 
     
-
-    ontimer(move, 50)
+    
+  #La velocidad del proyectil y de los balones es más rápida
+    ontimer(move, 10)
 
 setup(420, 420, 370, 0)
 hideturtle()
